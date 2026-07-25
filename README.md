@@ -60,7 +60,7 @@ source venv/bin/activate
 # Install dependencies
 pip install anthropic
 
-# Set your API key (get one at console.anthropic.com)
+# Set your API key 
 export ANTHROPIC_API_KEY="your-key-here"
 
 # Run it
