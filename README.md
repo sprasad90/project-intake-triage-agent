@@ -17,21 +17,21 @@ Given a batch of project requests (currently read from a CSV), the agent:
 
 ## Example Output
 
-\
---- Request #1: Mobile app crash on login ---
+
+Request #1: Mobile app crash on login
 Category: Bug
 Priority: Critical
 Reasoning: The crash affects a significant portion of the active user base (15%)
 and completely blocks access to core functionality (login), making the app
 unusable for those users.
 
---- Request #4: Data breach in customer export tool ---
+Request #4: Data breach in customer export tool 
 Category: Security Issue
 Priority: Critical
 Reasoning: Exposure of Social Security Numbers constitutes a severe data breach
 with immediate legal, regulatory, and reputational risks that requires urgent
 remediation.
-\
+
 
 ## Tech Stack
 
@@ -49,7 +49,7 @@ remediation.
 
 ## Running It Locally
 
-\bash
+bash
 # Clone the repo
 git clone https://github.com/sprasad90/project-intake-triage-agent.git
 cd project-intake-triage-agent
@@ -66,4 +66,4 @@ export ANTHROPIC_API_KEY="your-key-here"
 
 # Run it
 python3 triage_agent.py
-\
+
