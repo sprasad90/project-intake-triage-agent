@@ -39,9 +39,6 @@ remediation.
 - [Anthropic Claude API](https://docs.claude.com) (`claude-sonnet-4-5`)
 - CSV-based intake (current version)
 
-## Project Role
-
-This project was directed and specified end-to-end as a hands-on exercise in AI product development — defining the problem, the evaluation criteria (category accuracy, priority sensibility, reasoning clarity), the prompt design, and the success metrics, using Cursor as the development environment.
 
 ## Roadmap
 
