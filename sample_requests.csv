@@ -1,0 +1,6 @@
+request_id,title,description,requester,date_submitted
+1,Mobile app crash on login,"Users on iOS 17 report the app crashes immediately after entering credentials. Affects roughly 15% of daily active users.",Sarah Chen,2026-07-10
+2,New vendor onboarding portal,"Business wants a self-service portal for new vendors to submit tax documents and banking info instead of email.",Marcus Webb,2026-07-15
+3,Add dark mode to dashboard,"Several users have requested a dark mode option for the internal analytics dashboard.",Priya Nair,2026-07-18
+4,Data breach in customer export tool,"Security flagged that the customer data export tool is not properly redacting SSNs in the output file.",IT Security Team,2026-07-20
+5,Quarterly report automation,"Finance manually compiles quarterly reports from 4 different systems; want this automated.",David Kim,2026-07-12
