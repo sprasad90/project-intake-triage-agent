@@ -1,10 +1,10 @@
 # Project Intake & Triage Agent
 
-An AI-powered agent that automates the first pass of project intake — reading incoming project requests, categorizing them, assigning a priority level, and explaining its reasoning, using the Anthropic Claude API.
+An AI-powered agent that automates the first pass of project intake reading, incoming project requests, categorizing them, assigning a priority level, and explaining its reasoning, using the Anthropic Claude API.
 
 ## The Problem
 
-Every organization deals with a steady stream of incoming requests — bug reports, feature asks, security issues, process improvement ideas — arriving in inconsistent formats from different requesters. Someone has to read each one and make a judgment call: how urgent is this, what category does it belong to, and what's the risk of letting it sit. That first-pass triage is repetitive, time-consuming, and easy to do inconsistently across a busy intake queue.
+Every organization deals with a steady stream of incoming requests, bug reports, feature asks, security issues, process improvement ideas arriving in inconsistent formats from different requesters. Someone has to read each one and make a judgment call: how urgent is this, what category does it belong to, and what's the risk of letting it sit. That first-pass triage is repetitive, time consuming, and easy to do inconsistently across a busy intake queue.
 
 This project automates that first pass using an LLM, so a human reviewer starts from a structured, reasoned first opinion instead of a blank inbox.
 
