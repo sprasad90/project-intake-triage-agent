@@ -50,12 +50,12 @@ remediation.
 
 bash
 # Clone the repo
-git clone https://github.com/sprasad90/project-intake-triage-agent.git
-cd project-intake-triage-agent
+- git clone https://github.com/sprasad90/project-intake-triage-agent.git
+- cd project-intake-triage-agent
 
 # Set up a virtual environment
-python3 -m venv venv
-source venv/bin/activate
+- python3 -m venv venv
+- source venv/bin/activate
 
 # Install dependencies
 pip install anthropic
