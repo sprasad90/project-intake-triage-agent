@@ -17,7 +17,6 @@ Given a batch of project requests (currently read from a CSV), the agent:
 
 ## Example Output
 
-
 Request #1: Mobile app crash on login
 Category: Bug
 Priority: Critical
@@ -42,7 +41,7 @@ remediation.
 
 ## Roadmap
 
-- [x] **Phase 1** — Core intake and triage logic (this version)
+- [x] **Phase 1** — Core intake and triage logic 
 - [ ] **Phase 2** — Risk Heat Map: a visual view of open requests by risk level
 - [ ] **Phase 3** — Release Readiness module: surface whether outstanding requests indicate readiness (or risk) ahead of a release
 - [ ] **Phase 4** — Move from CSV input to a more realistic intake format (e.g., form submissions or a lightweight database)
@@ -66,4 +65,3 @@ export ANTHROPIC_API_KEY="your-key-here"
 
 # Run it
 python3 triage_agent.py
-
