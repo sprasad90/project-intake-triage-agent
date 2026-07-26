@@ -21,6 +21,7 @@ Reasoning: <reasoning>
     message = client.messages.create(
         model="claude-sonnet-4-5",
         max_tokens=200,
+        temperature=0,
         system="You are a precise, conservative project intake triage assistant for a busy engineering organization. You never inflate priority levels, and you only mark something Critical if it involves security, data loss, or a complete blocker for a significant number of users.",
         messages=[{"role": "user", "content": prompt}]
     )
