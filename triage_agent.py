@@ -9,6 +9,19 @@ def triage_request(title, description):
 2. Priority (Critical, High, Medium, Low)
 3. One-sentence reasoning for the priority
 
+Here is an example of the judgment and format expected:
+
+Example Request:
+Title: Login page slow to load
+Description: Users report the login page takes 8-10 seconds to load during peak hours, but it does eventually load.
+
+Example Response:
+Category: Bug
+Priority: Medium
+Reasoning: This degrades user experience during peak hours but does not block access or cause data loss, so it does not warrant Critical or High priority.
+
+Now triage this actual request:
+
 Title: {title}
 Description: {description}
 
